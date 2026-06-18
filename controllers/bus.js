@@ -103,17 +103,54 @@ exports.searchBusByFilter = async (req, res) => {
   res.json(bus);
 };
 
+// exports.create = async (req, res) => {
+//   const busExists = await Bus.findOne({ busNumber: req.body.busNumber });
+//   if (busExists)
+//     return res.status(403).json({
+//       error: "Bus is already added!"
+//     });
+
+//   if (req.file !== undefined) {
+//     const { filename: image } = req.file;
+
+//     //Compress image
+//     await sharp(req.file.path)
+//       .resize(800)
+//       .jpeg({ quality: 100 })
+//       .toFile(path.resolve(req.file.destination, "resized", image));
+//     fs.unlinkSync(req.file.path);
+//     req.body.image = "busimage/resized/" + image;
+//   }
+
+//   if (req.body.boardingPoints) {
+//     req.body.boardingPoints = req.body.boardingPoints.split(",");
+//   }
+
+//   if (req.body.droppingPoints) {
+//     req.body.droppingPoints = req.body.droppingPoints.split(",");
+//   }
+
+//   const bus = new Bus(req.body);
+//   bus.seatsAvailable = req.body.numberOfSeats
+
+//   if (!checkDateAvailability(req.body.journeyDate)) {
+//     bus.isAvailable = false;
+//   }
+
+//   bus.owner = req.ownerauth;
+
+//   await bus.save();
+
+//   res.json(bus);
+// };
+
 exports.create = async (req, res) => {
   const busExists = await Bus.findOne({ busNumber: req.body.busNumber });
   if (busExists)
-    return res.status(403).json({
-      error: "Bus is already added!"
-    });
+    return res.status(403).json({ error: "Bus is already added!" });
 
   if (req.file !== undefined) {
     const { filename: image } = req.file;
-
-    //Compress image
     await sharp(req.file.path)
       .resize(800)
       .jpeg({ quality: 100 })
@@ -122,25 +159,33 @@ exports.create = async (req, res) => {
     req.body.image = "busimage/resized/" + image;
   }
 
-  if (req.body.boardingPoints) {
-    req.body.boardingPoints = req.body.boardingPoints.split(",");
+  // Handle boardingPoints — accept both string (comma-separated) and array
+  if (req.body.boardingPoints && typeof req.body.boardingPoints === "string") {
+    req.body.boardingPoints = req.body.boardingPoints.split(",").map(s => s.trim());
   }
 
-  if (req.body.droppingPoints) {
-    req.body.droppingPoints = req.body.droppingPoints.split(",");
+  // Handle droppingPoints — accept both string and array
+  if (req.body.droppingPoints && typeof req.body.droppingPoints === "string") {
+    req.body.droppingPoints = req.body.droppingPoints.split(",").map(s => s.trim());
+  }
+
+  // Handle features — accept both string and array
+  if (req.body.features && typeof req.body.features === "string") {
+    req.body.features = req.body.features.split(",").map(s => s.trim());
   }
 
   const bus = new Bus(req.body);
-  bus.seatsAvailable = req.body.numberOfSeats
+  bus.seatsAvailable = req.body.numberOfSeats || 44;
 
   if (!checkDateAvailability(req.body.journeyDate)) {
     bus.isAvailable = false;
+  } else {
+    bus.isAvailable = true;
   }
 
   bus.owner = req.ownerauth;
 
   await bus.save();
-
   res.json(bus);
 };
 
