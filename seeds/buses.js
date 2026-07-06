@@ -68,7 +68,7 @@ const createBuses = () => [
   },
   {
     name: 'Modern Coast Express',
-    busNumber: 'KCB 123A', type: 'AC', fare: 1200,
+    busNumber: 'KCB 123A', type: 'AC', fare: 1600,
     numberOfSeats: 44, seatsAvailable: 44,
     seatsConfiguration: { left: 2, right: 2 },
     boardingPoints: ['Nairobi CBD', 'Westlands'],
@@ -82,7 +82,7 @@ const createBuses = () => [
   },
   {
     name: 'Modern Coast Night Rider',
-    busNumber: 'KCB 124A', type: 'AC', fare: 1300,
+    busNumber: 'KCB 124A', type: 'AC', fare: 1600,
     numberOfSeats: 44, seatsAvailable: 44,
     seatsConfiguration: { left: 2, right: 2 },
     boardingPoints: ['Nairobi CBD', 'Westlands'],
@@ -96,7 +96,7 @@ const createBuses = () => [
   },
   {
     name: 'Modern Coast Night Rider',
-    busNumber: 'KCB 124A', type: 'AC', fare: 1300,
+    busNumber: 'KCB 124A', type: 'AC', fare: 1600,
     numberOfSeats: 44, seatsAvailable: 44,
     seatsConfiguration: { left: 2, right: 2 },
     boardingPoints: ['Nairobi CBD', 'Westlands'],
@@ -110,7 +110,7 @@ const createBuses = () => [
   },
   {
     name: 'Modern Coast Night Rider',
-    busNumber: 'KCB 124A', type: 'AC', fare: 1300,
+    busNumber: 'KCB 124A', type: 'AC', fare: 1600,
     numberOfSeats: 44, seatsAvailable: 44,
     seatsConfiguration: { left: 2, right: 2 },
     boardingPoints: ['Nairobi CBD', 'Westlands'],
@@ -124,7 +124,7 @@ const createBuses = () => [
   },
   {
     name: 'Modern Coast Night Rider',
-    busNumber: 'KCB 124A', type: 'AC', fare: 1300,
+    busNumber: 'KCB 124A', type: 'AC', fare: 1600,
     numberOfSeats: 44, seatsAvailable: 44,
     seatsConfiguration: { left: 2, right: 2 },
     boardingPoints: ['Nairobi CBD', 'Westlands'],
@@ -138,7 +138,7 @@ const createBuses = () => [
   },
   {
     name: 'Modern Coast Night Rider',
-    busNumber: 'KCB 124A', type: 'AC', fare: 1300,
+    busNumber: 'KCB 124A', type: 'AC', fare: 1600,
     numberOfSeats: 44, seatsAvailable: 44,
     seatsConfiguration: { left: 2, right: 2 },
     boardingPoints: ['Nairobi CBD', 'Westlands'],
@@ -152,7 +152,7 @@ const createBuses = () => [
   },
   {
     name: 'Easy Coach Morning',
-    busNumber: 'KDB 456B', type: 'Delux', fare: 950,
+    busNumber: 'KDB 456B', type: 'Delux', fare: 1700,
     numberOfSeats: 52, seatsAvailable: 52,
     seatsConfiguration: { left: 2, right: 2 },
     boardingPoints: ['Nairobi CBD', 'Thika'],
@@ -166,7 +166,7 @@ const createBuses = () => [
   },
   {
     name: 'Easy Coach Morning',
-    busNumber: 'KDB 456B', type: 'Delux', fare: 950,
+    busNumber: 'KDB 456B', type: 'Delux', fare: 1700,
     numberOfSeats: 52, seatsAvailable: 52,
     seatsConfiguration: { left: 2, right: 2 },
     boardingPoints: ['Nairobi CBD', 'Thika'],
@@ -180,7 +180,7 @@ const createBuses = () => [
   },
   {
     name: 'Easy Coach Morning',
-    busNumber: 'KDB 456B', type: 'Delux', fare: 950,
+    busNumber: 'KDB 456B', type: 'Delux', fare: 1700,
     numberOfSeats: 52, seatsAvailable: 52,
     seatsConfiguration: { left: 2, right: 2 },
     boardingPoints: ['Nairobi CBD', 'Thika'],
@@ -194,7 +194,7 @@ const createBuses = () => [
   },
   {
     name: 'Easy Coach Morning',
-    busNumber: 'KDB 456B', type: 'Delux', fare: 950,
+    busNumber: 'KDB 456B', type: 'Delux', fare: 1700,
     numberOfSeats: 52, seatsAvailable: 52,
     seatsConfiguration: { left: 2, right: 2 },
     boardingPoints: ['Nairobi CBD', 'Thika'],
@@ -208,7 +208,7 @@ const createBuses = () => [
   },
   {
     name: 'Easy Coach Morning',
-    busNumber: 'KDB 456B', type: 'Delux', fare: 950,
+    busNumber: 'KDB 456B', type: 'Delux', fare: 1700,
     numberOfSeats: 52, seatsAvailable: 52,
     seatsConfiguration: { left: 2, right: 2 },
     boardingPoints: ['Nairobi CBD', 'Thika'],
@@ -222,7 +222,7 @@ const createBuses = () => [
   },
   {
     name: 'Easy Coach Afternoon',
-    busNumber: 'KDB 457B', type: 'Delux', fare: 950,
+    busNumber: 'KDB 457B', type: 'Delux', fare: 1700,
     numberOfSeats: 52, seatsAvailable: 52,
     seatsConfiguration: { left: 2, right: 2 },
     boardingPoints: ['Nairobi CBD', 'Thika'],
@@ -236,7 +236,7 @@ const createBuses = () => [
   },
   {
     name: 'Easy Coach Afternoon',
-    busNumber: 'KDB 457B', type: 'Delux', fare: 950,
+    busNumber: 'KDB 457B', type: 'Delux', fare: 1700,
     numberOfSeats: 52, seatsAvailable: 52,
     seatsConfiguration: { left: 2, right: 2 },
     boardingPoints: ['Nairobi CBD', 'Thika'],
@@ -250,7 +250,7 @@ const createBuses = () => [
   },
   {
     name: 'Easy Coach Afternoon',
-    busNumber: 'KDB 457B', type: 'Delux', fare: 950,
+    busNumber: 'KDB 457B', type: 'Delux', fare: 1700,
     numberOfSeats: 52, seatsAvailable: 52,
     seatsConfiguration: { left: 2, right: 2 },
     boardingPoints: ['Nairobi CBD', 'Thika'],
@@ -264,7 +264,7 @@ const createBuses = () => [
   },
   {
     name: 'Easy Coach Afternoon',
-    busNumber: 'KDB 457B', type: 'Delux', fare: 950,
+    busNumber: 'KDB 457B', type: 'Delux', fare: 1700,
     numberOfSeats: 52, seatsAvailable: 52,
     seatsConfiguration: { left: 2, right: 2 },
     boardingPoints: ['Nairobi CBD', 'Thika'],
@@ -278,7 +278,7 @@ const createBuses = () => [
   },
   {
     name: 'Easy Coach Afternoon',
-    busNumber: 'KDB 457B', type: 'Delux', fare: 950,
+    busNumber: 'KDB 457B', type: 'Delux', fare: 1700,
     numberOfSeats: 52, seatsAvailable: 52,
     seatsConfiguration: { left: 2, right: 2 },
     boardingPoints: ['Nairobi CBD', 'Thika'],
@@ -293,7 +293,7 @@ const createBuses = () => [
   // ── NAIROBI → KISUMU ───────────────────────────────────────────
   {
     name: 'Transline Classic',
-    busNumber: 'KDA 789C', type: 'Normal', fare: 800,
+    busNumber: 'KDA 789C', type: 'Normal', fare: 1500,
     numberOfSeats: 52, seatsAvailable: 52,
     seatsConfiguration: { left: 2, right: 2 },
     boardingPoints: ['Nairobi CBD'],
@@ -307,7 +307,7 @@ const createBuses = () => [
   },
   {
     name: 'Transline Classic',
-    busNumber: 'KDA 789C', type: 'Normal', fare: 800,
+    busNumber: 'KDA 789C', type: 'Normal', fare: 1500,
     numberOfSeats: 52, seatsAvailable: 52,
     seatsConfiguration: { left: 2, right: 2 },
     boardingPoints: ['Nairobi CBD'],
@@ -321,7 +321,7 @@ const createBuses = () => [
   },
   {
     name: 'Transline Classic',
-    busNumber: 'KDA 789C', type: 'Normal', fare: 800,
+    busNumber: 'KDA 789C', type: 'Normal', fare: 1500,
     numberOfSeats: 52, seatsAvailable: 52,
     seatsConfiguration: { left: 2, right: 2 },
     boardingPoints: ['Nairobi CBD'],
@@ -335,7 +335,7 @@ const createBuses = () => [
   },
   {
     name: 'Transline Classic',
-    busNumber: 'KDA 789C', type: 'Normal', fare: 800,
+    busNumber: 'KDA 789C', type: 'Normal', fare: 1500,
     numberOfSeats: 52, seatsAvailable: 52,
     seatsConfiguration: { left: 2, right: 2 },
     boardingPoints: ['Nairobi CBD'],
@@ -349,7 +349,7 @@ const createBuses = () => [
   },
   {
     name: 'Transline Classic',
-    busNumber: 'KDA 789C', type: 'Normal', fare: 800,
+    busNumber: 'KDA 789C', type: 'Normal', fare: 1500,
     numberOfSeats: 52, seatsAvailable: 52,
     seatsConfiguration: { left: 2, right: 2 },
     boardingPoints: ['Nairobi CBD'],
@@ -364,7 +364,7 @@ const createBuses = () => [
   // ── NAIROBI → ELDORET ──────────────────────────────────────────
   {
     name: 'Mash East Africa',
-    busNumber: 'KCA 321D', type: 'Suspense AC', fare: 900,
+    busNumber: 'KCA 321D', type: 'Suspense AC', fare: 1600,
     numberOfSeats: 44, seatsAvailable: 44,
     seatsConfiguration: { left: 2, right: 2 },
     boardingPoints: ['Nairobi CBD', 'Westlands'],
@@ -378,7 +378,7 @@ const createBuses = () => [
   },
   {
     name: 'Mash East Africa',
-    busNumber: 'KCA 321D', type: 'Suspense AC', fare: 900,
+    busNumber: 'KCA 321D', type: 'Suspense AC', fare: 1600,
     numberOfSeats: 44, seatsAvailable: 44,
     seatsConfiguration: { left: 2, right: 2 },
     boardingPoints: ['Nairobi CBD', 'Westlands'],
@@ -392,7 +392,7 @@ const createBuses = () => [
   },
   {
     name: 'Mash East Africa',
-    busNumber: 'KCA 321D', type: 'Suspense AC', fare: 900,
+    busNumber: 'KCA 321D', type: 'Suspense AC', fare: 1600,
     numberOfSeats: 44, seatsAvailable: 44,
     seatsConfiguration: { left: 2, right: 2 },
     boardingPoints: ['Nairobi CBD', 'Westlands'],
@@ -406,7 +406,7 @@ const createBuses = () => [
   },
   {
     name: 'Mash East Africa',
-    busNumber: 'KCA 321D', type: 'Suspense AC', fare: 900,
+    busNumber: 'KCA 321D', type: 'Suspense AC', fare: 1600,
     numberOfSeats: 44, seatsAvailable: 44,
     seatsConfiguration: { left: 2, right: 2 },
     boardingPoints: ['Nairobi CBD', 'Westlands'],
@@ -420,7 +420,7 @@ const createBuses = () => [
   },
   {
     name: 'Mash East Africa',
-    busNumber: 'KCA 321D', type: 'Suspense AC', fare: 900,
+    busNumber: 'KCA 321D', type: 'Suspense AC', fare: 1600,
     numberOfSeats: 44, seatsAvailable: 44,
     seatsConfiguration: { left: 2, right: 2 },
     boardingPoints: ['Nairobi CBD', 'Westlands'],
@@ -435,7 +435,7 @@ const createBuses = () => [
   // ── MOMBASA → MALINDI ──────────────────────────────────────────
   {
     name: 'Guardian Angel Bus',
-    busNumber: 'KBZ 555E', type: 'Normal', fare: 1500,
+    busNumber: 'KBZ 555E', type: 'Normal', fare: 1650,
     numberOfSeats: 44, seatsAvailable: 44,
     seatsConfiguration: { left: 2, right: 2 },
     boardingPoints: ['Mombasa CBD', 'Nyali'],
@@ -449,7 +449,7 @@ const createBuses = () => [
   },
   {
     name: 'Guardian Angel Bus',
-    busNumber: 'KBZ 555E', type: 'Normal', fare: 1500,
+    busNumber: 'KBZ 555E', type: 'Normal', fare: 1650,
     numberOfSeats: 44, seatsAvailable: 44,
     seatsConfiguration: { left: 2, right: 2 },
     boardingPoints: ['Mombasa CBD', 'Nyali'],
@@ -463,7 +463,7 @@ const createBuses = () => [
   },
   {
     name: 'Guardian Angel Bus',
-    busNumber: 'KBZ 555E', type: 'Normal', fare: 1500,
+    busNumber: 'KBZ 555E', type: 'Normal', fare: 1650,
     numberOfSeats: 44, seatsAvailable: 44,
     seatsConfiguration: { left: 2, right: 2 },
     boardingPoints: ['Mombasa CBD', 'Nyali'],
@@ -477,7 +477,7 @@ const createBuses = () => [
   },
   {
     name: 'Guardian Angel Bus',
-    busNumber: 'KBZ 555E', type: 'Normal', fare: 1500,
+    busNumber: 'KBZ 555E', type: 'Normal', fare: 1650,
     numberOfSeats: 44, seatsAvailable: 44,
     seatsConfiguration: { left: 2, right: 2 },
     boardingPoints: ['Mombasa CBD', 'Nyali'],
@@ -491,7 +491,7 @@ const createBuses = () => [
   },
   {
     name: 'Guardian Angel Bus',
-    busNumber: 'KBZ 555E', type: 'Normal', fare: 1500,
+    busNumber: 'KBZ 555E', type: 'Normal', fare: 1650,
     numberOfSeats: 44, seatsAvailable: 44,
     seatsConfiguration: { left: 2, right: 2 },
     boardingPoints: ['Mombasa CBD', 'Nyali'],
@@ -506,7 +506,7 @@ const createBuses = () => [
   // ── NAIROBI → NYERI ────────────────────────────────────────────
   {
     name: '2NK Shuttle',
-    busNumber: 'KCE 777F', type: 'Delux', fare: 600,
+    busNumber: 'KCE 777F', type: 'Delux', fare: 1400,
     numberOfSeats: 29, seatsAvailable: 29,
     seatsConfiguration: { left: 2, right: 1 },
     boardingPoints: ['Nairobi CBD', 'Thika'],
@@ -520,7 +520,7 @@ const createBuses = () => [
   },
   {
     name: '2NK Shuttle',
-    busNumber: 'KCE 777F', type: 'Delux', fare: 600,
+    busNumber: 'KCE 777F', type: 'Delux', fare: 1400,
     numberOfSeats: 29, seatsAvailable: 29,
     seatsConfiguration: { left: 2, right: 1 },
     boardingPoints: ['Nairobi CBD', 'Thika'],
@@ -534,7 +534,7 @@ const createBuses = () => [
   },
   {
     name: '2NK Shuttle',
-    busNumber: 'KCE 777F', type: 'Delux', fare: 600,
+    busNumber: 'KCE 777F', type: 'Delux', fare: 1400,
     numberOfSeats: 29, seatsAvailable: 29,
     seatsConfiguration: { left: 2, right: 1 },
     boardingPoints: ['Nairobi CBD', 'Thika'],
@@ -548,7 +548,7 @@ const createBuses = () => [
   },
   {
     name: '2NK Shuttle',
-    busNumber: 'KCE 777F', type: 'Delux', fare: 600,
+    busNumber: 'KCE 777F', type: 'Delux', fare: 1400,
     numberOfSeats: 29, seatsAvailable: 29,
     seatsConfiguration: { left: 2, right: 1 },
     boardingPoints: ['Nairobi CBD', 'Thika'],
@@ -562,7 +562,7 @@ const createBuses = () => [
   },
   {
     name: '2NK Shuttle',
-    busNumber: 'KCE 777F', type: 'Delux', fare: 600,
+    busNumber: 'KCE 777F', type: 'Delux', fare: 1400,
     numberOfSeats: 29, seatsAvailable: 29,
     seatsConfiguration: { left: 2, right: 1 },
     boardingPoints: ['Nairobi CBD', 'Thika'],
