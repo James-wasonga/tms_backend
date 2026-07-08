@@ -22,7 +22,7 @@ const createBuses = () => [
     departure_time: '08:00 AM',
     journeyDate: daysFromNow(1),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'modern-coast-express',
+    slug: 'modern-coast-express-d1',
   },
   {
     name: 'Modern Coast Express',
@@ -36,7 +36,7 @@ const createBuses = () => [
     departure_time: '08:00 AM',
     journeyDate: daysFromNow(2),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'modern-coast-express',
+    slug: 'modern-coast-express-d2',
   },
   {
     name: 'Modern Coast Express',
@@ -50,7 +50,7 @@ const createBuses = () => [
     departure_time: '08:00 AM',
     journeyDate: daysFromNow(3),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'modern-coast-express',
+    slug: 'modern-coast-express-d3',
   },
   {
     name: 'Modern Coast Express',
@@ -64,7 +64,7 @@ const createBuses = () => [
     departure_time: '08:00 AM',
     journeyDate: daysFromNow(4),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'modern-coast-express',
+    slug: 'modern-coast-express-d4',
   },
   {
     name: 'Modern Coast Express',
@@ -78,7 +78,7 @@ const createBuses = () => [
     departure_time: '08:00 AM',
     journeyDate: daysFromNow(5),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'modern-coast-express',
+    slug: 'modern-coast-express-d5',
   },
   {
     name: 'Modern Coast Night Rider',
@@ -162,7 +162,7 @@ const createBuses = () => [
     departure_time: '06:30 AM',
     journeyDate: daysFromNow(1),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'easy-coach',
+    slug: 'easy-coach-morning-d1',
   },
   {
     name: 'Easy Coach Morning',
@@ -176,7 +176,7 @@ const createBuses = () => [
     departure_time: '06:30 AM',
     journeyDate: daysFromNow(2),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'easy-coach',
+    slug: 'easy-coach-morning-d2',
   },
   {
     name: 'Easy Coach Morning',
@@ -190,7 +190,7 @@ const createBuses = () => [
     departure_time: '06:30 AM',
     journeyDate: daysFromNow(3),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'easy-coach',
+    slug: 'easy-coach-morning-d3',
   },
   {
     name: 'Easy Coach Morning',
@@ -204,7 +204,7 @@ const createBuses = () => [
     departure_time: '06:30 AM',
     journeyDate: daysFromNow(4),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'easy-coach',
+    slug: 'easy-coach-morning-d4',
   },
   {
     name: 'Easy Coach Morning',
@@ -218,7 +218,7 @@ const createBuses = () => [
     departure_time: '06:30 AM',
     journeyDate: daysFromNow(5),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'easy-coach',
+    slug: 'easy-coach-morning-d5',
   },
   {
     name: 'Easy Coach Afternoon',
@@ -232,7 +232,7 @@ const createBuses = () => [
     departure_time: '02:00 PM',
     journeyDate: daysFromNow(1),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'easy-coach',
+    slug: 'easy-coach-afternoon-d1',
   },
   {
     name: 'Easy Coach Afternoon',
@@ -246,7 +246,7 @@ const createBuses = () => [
     departure_time: '02:00 PM',
     journeyDate: daysFromNow(2),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'easy-coach',
+    slug: 'easy-coach-afternoon-d2',
   },
   {
     name: 'Easy Coach Afternoon',
@@ -260,7 +260,7 @@ const createBuses = () => [
     departure_time: '02:00 PM',
     journeyDate: daysFromNow(3),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'easy-coach',
+    slug: 'easy-coach-afternoon-d3',
   },
   {
     name: 'Easy Coach Afternoon',
@@ -274,7 +274,7 @@ const createBuses = () => [
     departure_time: '02:00 PM',
     journeyDate: daysFromNow(4),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'easy-coach',
+    slug: 'easy-coach-afternoon-d4',
   },
   {
     name: 'Easy Coach Afternoon',
@@ -288,7 +288,7 @@ const createBuses = () => [
     departure_time: '02:00 PM',
     journeyDate: daysFromNow(5),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'easy-coach',
+    slug: 'easy-coach-afternoon-d5',
   },
   // ── NAIROBI → KISUMU ───────────────────────────────────────────
   {
