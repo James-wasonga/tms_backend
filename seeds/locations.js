@@ -23,6 +23,8 @@ const kenyanLocations = [
   { name: 'Bungoma', district: 'Bungoma' },
   { name: 'Voi', district: 'Taita-Taveta' },
   { name: 'Kilifi', district: 'Kilifi' },
+  { name: 'Migori', district: 'Migori' },
+  { name: 'Awendo', district: 'Migori '}
 ];
 
 exports.seedLocations = async () => {
