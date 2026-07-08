@@ -22,7 +22,7 @@ const createBuses = () => [
     departure_time: '08:00 AM',
     journeyDate: daysFromNow(1),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'modern-coast-express-d1',
+    slug: 'modern-coast1',
   },
   {
     name: 'Modern Coast Express',
@@ -36,7 +36,7 @@ const createBuses = () => [
     departure_time: '08:00 AM',
     journeyDate: daysFromNow(2),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'modern-coast-express-d2',
+    slug: 'modern-coast2',
   },
   {
     name: 'Modern Coast Express',
@@ -50,7 +50,7 @@ const createBuses = () => [
     departure_time: '08:00 AM',
     journeyDate: daysFromNow(3),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'modern-coast-express-d3',
+    slug: 'modern-coast3',
   },
   {
     name: 'Modern Coast Express',
@@ -64,7 +64,7 @@ const createBuses = () => [
     departure_time: '08:00 AM',
     journeyDate: daysFromNow(4),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'modern-coast-express-d4',
+    slug: 'modern-coast4',
   },
   {
     name: 'Modern Coast Express',
@@ -78,7 +78,7 @@ const createBuses = () => [
     departure_time: '08:00 AM',
     journeyDate: daysFromNow(5),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'modern-coast-express-d5',
+    slug: 'modern-coast5',
   },
   {
     name: 'Modern Coast Night Rider',
@@ -92,7 +92,7 @@ const createBuses = () => [
     departure_time: '09:00 PM',
     journeyDate: daysFromNow(1),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'modern-coast-night-d1',
+    slug: 'modern-coast6',
   },
   {
     name: 'Modern Coast Night Rider',
@@ -106,7 +106,7 @@ const createBuses = () => [
     departure_time: '09:00 PM',
     journeyDate: daysFromNow(2),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'modern-coast-night-d2',
+    slug: 'modern-coast7',
   },
   {
     name: 'Modern Coast Night Rider',
@@ -120,7 +120,7 @@ const createBuses = () => [
     departure_time: '09:00 PM',
     journeyDate: daysFromNow(3),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'modern-coast-night-d3',
+    slug: 'modern-coast8',
   },
   {
     name: 'Modern Coast Night Rider',
@@ -134,7 +134,7 @@ const createBuses = () => [
     departure_time: '09:00 PM',
     journeyDate: daysFromNow(4),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'modern-coast-night-d4',
+    slug: 'modern-coast9',
   },
   {
     name: 'Modern Coast Night Rider',
@@ -148,7 +148,7 @@ const createBuses = () => [
     departure_time: '09:00 PM',
     journeyDate: daysFromNow(5),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'modern-coast-night-d5',
+    slug: 'modern-coast10',
   },
   {
     name: 'Easy Coach Morning',
@@ -162,7 +162,7 @@ const createBuses = () => [
     departure_time: '06:30 AM',
     journeyDate: daysFromNow(1),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'easy-coach-morning-d1',
+    slug: 'easy-coach1',
   },
   {
     name: 'Easy Coach Morning',
@@ -176,7 +176,7 @@ const createBuses = () => [
     departure_time: '06:30 AM',
     journeyDate: daysFromNow(2),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'easy-coach-morning-d2',
+    slug: 'easy-coach2',
   },
   {
     name: 'Easy Coach Morning',
@@ -190,7 +190,7 @@ const createBuses = () => [
     departure_time: '06:30 AM',
     journeyDate: daysFromNow(3),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'easy-coach-morning-d3',
+    slug: 'easy-coach3',
   },
   {
     name: 'Easy Coach Morning',
@@ -204,7 +204,7 @@ const createBuses = () => [
     departure_time: '06:30 AM',
     journeyDate: daysFromNow(4),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'easy-coach-morning-d4',
+    slug: 'easy-coach4',
   },
   {
     name: 'Easy Coach Morning',
@@ -218,7 +218,7 @@ const createBuses = () => [
     departure_time: '06:30 AM',
     journeyDate: daysFromNow(5),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'easy-coach-morning-d5',
+    slug: 'easy-coach5',
   },
   {
     name: 'Easy Coach Afternoon',
@@ -232,7 +232,7 @@ const createBuses = () => [
     departure_time: '02:00 PM',
     journeyDate: daysFromNow(1),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'easy-coach-afternoon-d1',
+    slug: 'easy-coach6',
   },
   {
     name: 'Easy Coach Afternoon',
@@ -246,7 +246,7 @@ const createBuses = () => [
     departure_time: '02:00 PM',
     journeyDate: daysFromNow(2),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'easy-coach-afternoon-d2',
+    slug: 'easy-coach7',
   },
   {
     name: 'Easy Coach Afternoon',
@@ -260,7 +260,7 @@ const createBuses = () => [
     departure_time: '02:00 PM',
     journeyDate: daysFromNow(3),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'easy-coach-afternoon-d3',
+    slug: 'easy-coach8',
   },
   {
     name: 'Easy Coach Afternoon',
@@ -274,7 +274,7 @@ const createBuses = () => [
     departure_time: '02:00 PM',
     journeyDate: daysFromNow(4),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'easy-coach-afternoon-d4',
+    slug: 'easy-coach9',
   },
   {
     name: 'Easy Coach Afternoon',
@@ -288,7 +288,7 @@ const createBuses = () => [
     departure_time: '02:00 PM',
     journeyDate: daysFromNow(5),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'easy-coach-afternoon-d5',
+    slug: 'easy-coach10',
   },
   // ── NAIROBI → KISUMU ───────────────────────────────────────────
   {
@@ -303,7 +303,7 @@ const createBuses = () => [
     departure_time: '07:00 AM',
     journeyDate: daysFromNow(1),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'transline-classic-d1',
+    slug: 'transline-classic1',
   },
   {
     name: 'Transline Classic',
@@ -317,7 +317,7 @@ const createBuses = () => [
     departure_time: '07:00 AM',
     journeyDate: daysFromNow(2),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'transline-classic-d2',
+    slug: 'transline-classic2',
   },
   {
     name: 'Transline Classic',
@@ -331,7 +331,7 @@ const createBuses = () => [
     departure_time: '07:00 AM',
     journeyDate: daysFromNow(3),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'transline-classic-d3',
+    slug: 'transline-classic3',
   },
   {
     name: 'Transline Classic',
@@ -345,7 +345,7 @@ const createBuses = () => [
     departure_time: '07:00 AM',
     journeyDate: daysFromNow(4),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'transline-classic-d4',
+    slug: 'transline-classic4',
   },
   {
     name: 'Transline Classic',
@@ -359,7 +359,7 @@ const createBuses = () => [
     departure_time: '07:00 AM',
     journeyDate: daysFromNow(5),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'transline-classic-d5',
+    slug: 'transline-classic5',
   },
   // ── NAIROBI → ELDORET ──────────────────────────────────────────
   {
@@ -374,7 +374,7 @@ const createBuses = () => [
     departure_time: '08:30 AM',
     journeyDate: daysFromNow(1),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'mash-east-africa-d1',
+    slug: 'mash-east1',
   },
   {
     name: 'Mash East Africa',
@@ -388,7 +388,7 @@ const createBuses = () => [
     departure_time: '08:30 AM',
     journeyDate: daysFromNow(2),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'mash-east-africa-d2',
+    slug: 'mash-east2',
   },
   {
     name: 'Mash East Africa',
@@ -402,7 +402,7 @@ const createBuses = () => [
     departure_time: '08:30 AM',
     journeyDate: daysFromNow(3),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'mash-east-africa-d3',
+    slug: 'mash-east3',
   },
   {
     name: 'Mash East Africa',
@@ -416,7 +416,7 @@ const createBuses = () => [
     departure_time: '08:30 AM',
     journeyDate: daysFromNow(4),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'mash-east-africa-d4',
+    slug: 'mash-east4',
   },
   {
     name: 'Mash East Africa',
@@ -430,7 +430,7 @@ const createBuses = () => [
     departure_time: '08:30 AM',
     journeyDate: daysFromNow(5),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'mash-east-africa-d5',
+    slug: 'mash-east5',
   },
   // ── MOMBASA → MALINDI ──────────────────────────────────────────
   {
@@ -445,7 +445,7 @@ const createBuses = () => [
     departure_time: '09:00 AM',
     journeyDate: daysFromNow(1),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'guardian-angel-d1',
+    slug: 'guardian-angel1',
   },
   {
     name: 'Guardian Angel Bus',
@@ -459,7 +459,7 @@ const createBuses = () => [
     departure_time: '09:00 AM',
     journeyDate: daysFromNow(2),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'guardian-angel-d2',
+    slug: 'guardian-angel2',
   },
   {
     name: 'Guardian Angel Bus',
@@ -473,7 +473,7 @@ const createBuses = () => [
     departure_time: '09:00 AM',
     journeyDate: daysFromNow(3),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'guardian-angel-d3',
+    slug: 'guardian-angel3',
   },
   {
     name: 'Guardian Angel Bus',
@@ -487,7 +487,7 @@ const createBuses = () => [
     departure_time: '09:00 AM',
     journeyDate: daysFromNow(4),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'guardian-angel-d4',
+    slug: 'guardian-angel4',
   },
   {
     name: 'Guardian Angel Bus',
@@ -501,7 +501,7 @@ const createBuses = () => [
     departure_time: '09:00 AM',
     journeyDate: daysFromNow(5),
     isAvailable: true, bookedSeat: [], soldSeat: [],
-    slug: 'guardian-angel-d5',
+    slug: 'guardian-angel5',
   },
   // ── NAIROBI → NYERI ────────────────────────────────────────────
   {
