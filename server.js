@@ -1,5 +1,79 @@
-// Packages
-//const expressValidator = require("express-validator");
+// // Packages
+// //const expressValidator = require("express-validator");
+
+// const express = require("express");
+// require("express-async-errors");
+// const cors = require("cors");
+// require("dotenv").config();
+// const swaggerUi = require('swagger-ui-express');
+// const swaggerSpec = require('./swaggerConfig');
+
+// const app = express();
+
+// // Import methods
+// const { runEveryMidnight, dbConnection, errorHandler } = require("./helpers");
+// const logger = require("./helpers/logger");
+// const runSeed = require("./seeds");
+
+// // Database Connection
+// dbConnection();
+// runSeed();
+
+// // Middlewares
+// logger(app);
+// app.use(cors({
+//   origin: [
+//     'http://localhost:3000',
+//     'http://localhost:3001',
+//     'http://localhost:3002',
+//     'http://localhost:3003',
+//     'https://tms.vividinnovations.co.ke',
+//     /\.vercel\.app$/,
+//     /\.netlify\.app$/,
+//     /\.render\.com$/,
+//   ],
+//   credentials: true,
+//   methods: ['GET','POST','PUT','DELETE','PATCH','OPTIONS'],
+//   allowedHeaders: ['Content-Type','Authorization','Accept'],
+// }));
+// app.use(express.json());
+// // app.use(expressValidator());
+// app.use(express.static("public"));
+// app.use(express.urlencoded({ extended: true }));
+// app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
+// app.use('/api/payments', require('./routes/payments'));
+
+// // Routes
+// app.get("/", (req, res) => {
+//    res.send("Welome to TMS")
+// });
+
+// app.use("/api/auth-owner", require("./routes/auth-owner"));
+// app.use("/api/auth-user", require("./routes/auth-user"));
+// app.use("/api/bookings", require("./routes/booking"));
+// app.use("/api/bus", require("./routes/bus"));
+// app.use("/api/guests", require("./routes/guest"));
+// app.use("/api/locations", require("./routes/location"));
+// app.use("/api/owners", require("./routes/owner"));
+// app.use("/api/travels", require("./routes/travel"));
+// app.use("/api/users", require("./routes/user"));
+// // app.use("/api/wallet", require("./routes/wallet")); 
+
+// // Error handling middleware
+// app.use(function (err, req, res, next) {
+//   return res.status(500).json({
+//     error: errorHandler(err) || "Something went wrong!",
+//   });
+// });
+
+// // Run every-midnight to check if bus deporting date is passed
+// runEveryMidnight();
+
+// const port = process.env.PORT || 8085;
+
+// app.listen(port, () => {
+//   console.log(`Server is running on port ${port}`);
+// });
 
 const express = require("express");
 require("express-async-errors");
@@ -37,7 +111,6 @@ app.use(cors({
   allowedHeaders: ['Content-Type','Authorization','Accept'],
 }));
 app.use(express.json());
-// app.use(expressValidator());
 app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
@@ -45,7 +118,7 @@ app.use('/api/payments', require('./routes/payments'));
 
 // Routes
 app.get("/", (req, res) => {
-   res.send("Welome to TMS")
+   res.send("Welcome to TMS")
 });
 
 app.use("/api/auth-owner", require("./routes/auth-owner"));
@@ -57,7 +130,7 @@ app.use("/api/locations", require("./routes/location"));
 app.use("/api/owners", require("./routes/owner"));
 app.use("/api/travels", require("./routes/travel"));
 app.use("/api/users", require("./routes/user"));
-// app.use("/api/wallet", require("./routes/wallet")); 
+app.use("/api/api-user", require("./routes/user")); // Added to resolve 404 for /api/api-user/* endpoints
 
 // Error handling middleware
 app.use(function (err, req, res, next) {
@@ -66,7 +139,7 @@ app.use(function (err, req, res, next) {
   });
 });
 
-// Run every-midnight to check if bus deporting date is passed
+// Run every midnight to check if bus departing date has passed
 runEveryMidnight();
 
 const port = process.env.PORT || 8085;
