@@ -1,3 +1,3 @@
 # tms
 
-This holds the entire server of the project
+This holds the entire backend server of the project
